@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2023/03/06/hello-world/"/>
+      <url>/2023/03/06/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我的2022---一个悲催的程序猿的四年前端工作总结</title>
+      <link href="/2020/11/30/test/"/>
+      <url>/2020/11/30/test/</url>
+      
+        <content type="html"><![CDATA[<h2 id="个人介绍"><a href="#个人介绍" class="headerlink" title="个人介绍"></a>个人介绍</h2><p>我是2018年毕业的普二本，专业比较好：软件工程。女。当初高考前三个月妈妈奖励了一台手机（以前都没有手机，我也不知道她咋想的，但是当初的我一定不会拒绝<br>，但是现在的我一定会告诉那个时候的自己：拒绝）。从高考前三个月开始疯狂玩手机，看小说，甚至高考前三天我都在通宵看小说，每天看到凌晨四点<br>，睡觉到7点，起床上学。现在想想真的后悔！！！<br>本来可以可以考个一本，结果无奈高考差了10分只能上一个二本。报考志愿也全是对自己生气，随便选的。7个平行志愿，（第一个志愿我还报考了南开大学，因为我外婆做梦说我考上了，哈哈哈！！）2个定向志愿：其中8个学校报考的<br>都是金融专业，一个软件工程，好死不死被这个学校抽走了档案。不幸中的万幸吧，读了计算机专业，成功晋升到一名专业的可以脱发的<code>程序媛</code>。</p><h2 id="2022以前"><a href="#2022以前" class="headerlink" title="2022以前"></a>2022以前</h2><p>2017年实习去的上海，在一家AR的公司，人数，行业都不错，但是我进去之后只让我做静态页面。后来返校前就离职了</p><p><strong>因为我喜欢看海，而且怕冷，我就来了深圳，鬼知道深圳根本没有沙滩。来了3年我才去珠海看了一次海（有沙滩的），而且深圳也冷….</strong></p><p>2018年5月23日来的深圳，6月18日进的第一家公司(金融公司)，我都没咋面试，就没有面试经验，一共面试了4家，有一家公司约了时间，HR说 研发中心去<br>新加坡旅游了，每年一次，等回来让我去面试。我心想：我一定要进去，结果也没等到面试就进了第一家公司。</p><p>当时对第一家公司怀有感恩之心，能接受一个应届生，而且当时我的工资比当时的同学都高500左右【不算大厂的同学】。又是一个金融+计算机，我就想着我能<br>在这家公司干到死。哈哈哈，事实证明，会被打脸的。第一年调薪，我才半年，我没好意思提，第二年，我准备提的时候，领导说已经谈完了，明年吧。<br>what???? 公司发通知了么？啥时候谈的？没人说啊？？就这样我两年半没有涨工资。我的同学都已经是15K的了，我还在7K左右徘徊。</p><p>我当时对于公司怀有相信的，第三年我跟领导谈了调薪，过完年回来 问领导，他说最多给11，这已经是最好的了。外面也差不多的。我说不了！！！</p><hr><p>2021年5月6号我入职了第二家公司，1000+的公司，在深圳算一个有名点的公司吧，做C端业务。工资也比11多那么点 在这家公司很忙，经常加班，进公司半个月就通宵了一次，当时跟同事说，应该不会一直这样吧，我感觉受不了。同事说不会的。放心。后来我感受到只是不通宵而已，哈哈哈哈，每天到9点都不算加班的</p><hr><p><strong><em>太卷了！！！！！</em></strong></p><h2 id="我的2022"><a href="#我的2022" class="headerlink" title="我的2022"></a>我的2022</h2><blockquote><p>我的2022，我经历了：扣除年终奖; 被裁员，被孤立，无赔偿；无工作；入职新公司，工资被拖欠…</p></blockquote><p>先说第二家公司，2022年5月初正好我有了五天年假，整整一年，在这一年里：<br>确实学到了很多在第一家小公司没有学到的东西，比如抓包，小程序的开发，C端的业务，精准的开发流程，多人协作的方式，seo埋点等等<br>但是鸡肋的来了，因为2022年过年疫情不能回家，我准备20220501回家 加上年假和调休，我可以在家待10天了。yes!!!太棒了 这个时候前端领导说话特别好说话<br>一下子就给我批准了 我跟家里人还说，我们领导太好了。回家之后我每天开心呀就是开心！！我5.5号回到深圳，半夜2点到家。</p><p>没想到啊，噩耗第二天就来了<br>周一，这一天上班早上10点前端领导微信叫我，说11点谈点事情。当时啥也没想。（我之前已经有人约谈了）</p><blockquote><p>11点叫我到会议室：</p><p>领导说：现在有一个表格要填一下…</p><p>我一看，签字表明你是接受自愿离职。</p><p>我问：巴拉巴拉….</p><p>领导：我知道的，我知道的，但是我们必须要有一个名额…..</p><p>我：不签</p></blockquote><p>从我拒绝之后，领导就开始特意孤立我，开会拉小群，有事拉小群，吃饭拉小群…</p><p><strong>裁员！！！</strong></p><p>我同意了，领导立马笑容满面，我想应该是他的绩效达到了，**<em>我真棒**</em>，我帮他拿到了年中绩效！！！</p><p>过程很不愉快吧 无补偿，自己离职，在现在这个裁员高峰期，找工作难上加难，但是我还是同意离职，因为同事们也自动隔离你了。<br>感觉没意思了 我自己整天心情也不好。就直接走了 7月初办理离职。离职以后不想找工作。自己躺尸半个月，整天王者，那段时间是真的开心不起来。</p><p>呆了半个月，开始找工作了！</p><h2 id="面试"><a href="#面试" class="headerlink" title="面试"></a>面试</h2><p>7月面试，时机不好；大厂也裁员，时机不好；天热，时机不好；很多公司不招人，时机不好…</p><p>总之一切不好！！！！</p><p>7月下旬每天都是背面试题，因为我主技术栈是vue ，但是今年主要的招人的公司岗位全都要求会react，很无奈，我少了很多机会。</p><p>中间面试一个国企：<code>深智城</code>，应该大部分人听说了，因为今年招人大批招人，就是工资很低。面试超级简单，我拿到了offer,但是我想谈薪，他不给。最后也没给我发offer,当然我也没想去</p><p>面试机会不多，但是至少一天还是有一个的，但都是创业公司，小到一个办公室只有4个人，想去了增加一下面试经验，结果也发现白跑一趟。后来这种的就不去了。</p><blockquote><p>我应该还是幸运的，8月2号接到了offer。考虑了一下，就直接入职。</p></blockquote><p>公司一起被裁员的同一拨的还有两个男生，他们之前薪资20+所以更不好找，大概找了两个月的样子，有个人已经回了武汉，一个被迫降薪。今年真的不行</p><p>我可能是因为base低，运气还行吧。凑凑合合或者！</p><p><strong>2022目标：保住工作</strong></p><h2 id="个人感触"><a href="#个人感触" class="headerlink" title="个人感触"></a>个人感触</h2><p>对于我来说</p><ol><li>  同事就是同事（在今年以前我真的想跟同事都处理好关系，希望平常也能一起吃吃饭逛逛街）</li><li>  不屈服公司压迫 （被迫裁员，没要赔偿，我真的会谢；我走之后，被谈话的同事要到了赔偿）</li><li>  积极多方面学习 （多方向发展，你看react没有工作经验就抹杀掉多少机会）</li><li>  学会复盘记录   （给自己的硬性指标，现在工作中，遇到一些难点或者没用到的，我都会使用掘金或者csdn或者语雀记录下来，不仅可以下次面试吹牛，还帮助自己复盘）</li></ol><p><strong>今年的第一个感受就是，难</strong></p><p>存钱难，活着难</p><p>2021年底报考了开课吧在职考研，从12月份开始准备，每天背单词，做题，上课，很充实，结果今年开课吧倒闭了，2W打了水漂，课程也没有了，导致我今年没有报考<br><strong>损失2w</strong></p><p>今年决定去澳门打九价（26岁+），每针平均2200澳门币，加上车费，住宿费，过关费，时间，再加上请假，（内地开放45岁时候，我已经打了一针，只能继续去澳门打，又亏了）<br>花了1.3W，减去针的钱，<strong>损失8K</strong></p><p>被裁员一个月没工资，损失**<strong>**k</strong></p><h2 id="展望2023"><a href="#展望2023" class="headerlink" title="展望2023"></a>展望2023</h2><p>我希望我的2023能对我好一点</p><p>我暂时有几个目标</p><blockquote><ul><li><ol><li>学习react 做两个项目：一个web端，一个小程序，以后写进简历（我也是有react经验的）</li></ol></li><li><ol start="2"><li>深入学习node，node一直都在学习，每个模块也都认识，今年要认真学习应用</li></ol></li><li><ol start="3"><li>记录学习vue2源码的文章，已经在进行中，以前一直都是在看在学，但是从来没有认真记录过【<strong>已经进行中了</strong>】</li></ol></li></ul></blockquote><p><strong>充实自己！减肥成功！学习摄影！展望2023！</strong></p><h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>但是我还是很开心的，也是很幸运的。</p><p>疫情开放了 全部解封，可以回家过年了，我已经三年没回去过年了，最开心的事了</p><h2 id="负债也要回家！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！"><a href="#负债也要回家！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！" class="headerlink" title="负债也要回家！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！"></a>负债也要回家！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！</h2><h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><p>至于工资被拖欠的部分，是目前正在职的这个公司，公司也给了解释，也专门开了大会解释，据说是过年前会被把拖欠的发下来，应该是可以相信的。</p><p>游戏：之前也是憋着一口气，别人都是王者段位，为啥我就上不去；如今我上去了，没目标了，直接把游戏卸载了。哈哈哈</p><p>现状：今年之前我都觉得我不会写博客啥的，后来看到一个以前的大学同学进到了阿里，顺便看了下他的博客，我发现他写的也很简单啊，就是简单的问题bug记录，学习过程的记录。（我以前觉得必须要像论文那样有思想有格调的人才配写博客，才配被大家看到）看完之后，我觉得我也可以，今年开始，我自己也慢慢开始写一些东西，很简单，排版也just so so。但是发现越写越上瘾。每次敲代码遇到一个难点，心里都有点开心，我又可以有东西写了。<strong>现在就觉得我觉悟的太晚了，不然我可以更优秀的，嘿嘿！！！</strong></p><h2 id="新补充"><a href="#新补充" class="headerlink" title="新补充"></a>新补充</h2><p>当时明确说了年底前会发之前拖欠的那个月的工资，今天突然开会说不会发了，3月才发，然后组长偷偷说3月都不一定。让我们理解公司一下。what？？？？没钱回家过年，让我理解？？？我现在真是越来越不能理解了。生气！！！</p><p><strong>还能再倒霉点么！！！！！！！！！！！</strong></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 2022 年终总结 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>sheng</title>
+      <link href="/2020/11/30/sheng/"/>
+      <url>/2020/11/30/sheng/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
