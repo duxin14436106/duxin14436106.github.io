@@ -241,11 +241,11 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #69dfcf 0%, #0ae7c9 100%);
 }
 
 .text-color {
-    color: #0f9d58 !important;
+    color: #69dfcf !important;
 }
 
 .white-color {
@@ -257,7 +257,7 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background: linear-gradient(to right, #69dfcf 0%, #0ae7c9 100%);
     opacity: 0.8;
 }
 
@@ -290,7 +290,7 @@ header nav .brand-span {
 }
 
 header .brand-logo .logo-img {
-    height: 45px;
+    /*height: 45px;*/
     vertical-align: middle;
     padding-bottom: 6px;
 }
