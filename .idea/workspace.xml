@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23b310a9-5ee0-4161-8d9c-b74fc561a543" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/source/_posts/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/learn-socket-io.md" afterDir="false" />
+    <list default="true" id="23b310a9-5ee0-4161-8d9c-b74fc561a543" name="Default Changelist" comment="feat: 新增文章">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/test.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/test.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/learn-socket-io.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/learn-socket-io.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/layout/_partial/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/layout/_partial/header.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/layout/_partial/post-detail.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/layout/_partial/post-detail.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/css/matery.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/source/css/matery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/reward/alipay.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/reward/wechat.png" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/reward/wechat.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,17 +28,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/demo/shengBlog",
-    "nodejs_package_manager_path": "yarn",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/demo/shengBlog&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,8 +50,32 @@
       <workItem from="1606747937025" duration="2344000" />
       <workItem from="1606836383216" duration="78000" />
       <workItem from="1607773874675" duration="36000" />
-      <workItem from="1678182894748" duration="2657000" />
+      <workItem from="1678182894748" duration="3378000" />
+      <workItem from="1678238417839" duration="2849000" />
+      <workItem from="1678331792597" duration="560000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: 新增文章">
+      <created>1678185665312</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678185665313</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: 新增文章">
+      <created>1678185701070</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678185701070</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: 新增文章">
+      <created>1678185707000</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678185707000</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,5 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat: 新增文章" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 新增文章" />
   </component>
 </project>

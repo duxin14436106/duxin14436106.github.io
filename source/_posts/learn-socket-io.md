@@ -7,7 +7,7 @@ mathjax: true
 date: 2023-03-07 18:35:03
 password:
 summary:
-tags: socket.io express
+tags: [node, socket.io, express]
 categories:
 ---
 # 实现
