@@ -496,10 +496,10 @@
     "ansi-styles" "^4.1.0"
     "supports-color" "^7.1.0"
 
-"chalk@^4.0.0":
-  "integrity" "sha512-qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A=="
-  "resolved" "https://registry.npmjs.org/chalk/-/chalk-4.1.0.tgz"
-  "version" "4.1.0"
+"chalk@^4.0.0", "chalk@^4.1.2":
+  "integrity" "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA=="
+  "resolved" "https://registry.npmmirror.com/chalk/-/chalk-4.1.2.tgz"
+  "version" "4.1.2"
   dependencies:
     "ansi-styles" "^4.1.0"
     "supports-color" "^7.1.0"
@@ -1778,6 +1778,13 @@
     "opencollective-postinstall" "^2.0.2"
     "path" "^0.12.7"
 
+"hexo-hide-posts@^0.2.0":
+  "integrity" "sha512-euTftMGCSYkhn/ARVuOv+XQIMNTUy5vCiutaY0qcN92NdZTfPG/wKCkeR3yE7LpMs/Y0aTuEp9F5NUVP/Dt6nA=="
+  "resolved" "https://registry.npmmirror.com/hexo-hide-posts/-/hexo-hide-posts-0.2.0.tgz"
+  "version" "0.2.0"
+  dependencies:
+    "chalk" "^4.1.2"
+
 "hexo-i18n@^1.0.0":
   "integrity" "sha512-yw90JHr7ybUHN/QOkpHmlWJj1luVk5/v8CUU5NRA0n4TFp6av8NT7ujZ10GDawgnQEdMHnN5PUfAbNIVGR6axg=="
   "resolved" "https://registry.npmjs.org/hexo-i18n/-/hexo-i18n-1.0.0.tgz"
@@ -1819,9 +1826,9 @@
   dependencies:
     "ejs" "^2.6.1"
 
-"hexo-renderer-marked@^3.0.0":
+"hexo-renderer-marked@^3.3.0":
   "integrity" "sha512-U2EomSjsrixQXqqpZ3hYThLpKLg4RSC5hC6dwr/SZG/1LxKKfMoLA48wKgx+xSgzkydye0IBDJ+UAQPLaTfCdw=="
-  "resolved" "https://registry.npmjs.org/hexo-renderer-marked/-/hexo-renderer-marked-3.3.0.tgz"
+  "resolved" "https://registry.npmmirror.com/hexo-renderer-marked/-/hexo-renderer-marked-3.3.0.tgz"
   "version" "3.3.0"
   dependencies:
     "hexo-util" "^2.1.0"
