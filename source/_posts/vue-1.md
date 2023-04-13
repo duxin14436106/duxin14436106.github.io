@@ -215,3 +215,7 @@ Vue.prototype.$mount = function (
 - 将html模板解析成AST
 - 对AST优化
 - 根据AST生成render函数
+
+
+# 后记
+掘金同步地址：https://juejin.cn/post/7169053532341944334

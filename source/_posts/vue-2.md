@@ -149,3 +149,5 @@ export function popTarget () { // 出栈
   Dep.target = targetStack[targetStack.length - 1]
 }
 ```
+# 后记
+掘金同步地址：https://juejin.cn/post/7174351333766463519
