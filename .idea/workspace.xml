@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23b310a9-5ee0-4161-8d9c-b74fc561a543" name="Default Changelist" comment="feat: 新增文章">
-      <change afterPath="$PROJECT_DIR$/source/_posts/vue-4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
       <workItem from="1681293891761" duration="251000" />
       <workItem from="1681294266570" duration="56926000" />
       <workItem from="1681352480974" duration="3549000" />
-      <workItem from="1681356222749" duration="1003000" />
+      <workItem from="1681356222749" duration="1711000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 新增文章">
       <created>1678185665312</created>
@@ -116,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681357147567</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: 新增文章">
+      <created>1681357281287</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681357281288</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
