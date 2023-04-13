@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23b310a9-5ee0-4161-8d9c-b74fc561a543" name="Default Changelist" comment="feat: 新增文章">
+    <list default="true" id="23b310a9-5ee0-4161-8d9c-b74fc561a543" name="Default Changelist" comment="feat: 调整整体样式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/myself.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/myself.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/css/matery.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/source/css/matery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/css/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/source/css/post.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/libs/materialize/materialize.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/source/libs/materialize/materialize.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/banner/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/banner/0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/banner/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/banner/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/banner/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/banner/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/banner/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/banner/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/banner/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/banner/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/featureimages/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/featureimages/0.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +64,7 @@
       <workItem from="1679370610125" duration="27000" />
       <workItem from="1681293891761" duration="251000" />
       <workItem from="1681294266570" duration="56926000" />
-      <workItem from="1681352480974" duration="2456000" />
+      <workItem from="1681352480974" duration="3213000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 新增文章">
       <created>1678185665312</created>
@@ -107,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681295549689</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: 调整整体样式">
+      <created>1681355087375</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681355087376</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat: 新增文章" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 新增文章" />
+    <MESSAGE value="feat: 调整整体样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 调整整体样式" />
   </component>
 </project>
