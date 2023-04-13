@@ -4,8 +4,11 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, 宁之家">
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex">
+    <meta name="keywords" content="learn-socket.io, 宁之家">
+    <meta name="description" content="实现页面
+服务端npm i express socket.io socket.io-client
+socket.io定义：Socket.io是一个WebSocket库，包括客户端的js和服务端的nodejs
+目标: 构建可以在不同浏览器和移">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +20,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | 宁之家</title>
+    <title>learn-socket.io | 宁之家</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -313,12 +316,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">learn-socket.io</h1>
                 </div>
             </div>
         </div>
@@ -340,9 +343,21 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/node/">
+                                <span class="chip bg-color">node</span>
+                            </a>
+                        
+                            <a href="/tags/socket-io/">
+                                <span class="chip bg-color">socket.io</span>
+                            </a>
+                        
+                            <a href="/tags/express/">
+                                <span class="chip bg-color">express</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -354,7 +369,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2023-03-09
+                    2023-03-07
                 </div>
                 
 
@@ -378,19 +393,77 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+                <h1 id="实现页面"><a href="#实现页面" class="headerlink" title="实现页面"></a>实现页面</h1><p><img src="/ts-type-challenges/img.png" alt="img"><br><img src="/ts-type-challenges/img_1.png" alt="socket-io/img_1"><br><img src="/ts-type-challenges/img_2.png" alt="socket-io/img_2"></p>
+<h2 id="服务端"><a href="#服务端" class="headerlink" title="服务端"></a>服务端</h2><pre><code>npm i express socket.io socket.io-client</code></pre>
+<h3 id="socket-io"><a href="#socket-io" class="headerlink" title="socket.io"></a>socket.io</h3><p><strong>定义</strong>：Socket.io是一个WebSocket库，包括客户端的js和服务端的nodejs</p>
+<p><strong>目标</strong>: 构建可以在不同浏览器和移动设备上使用的实际应用。它会自动根据浏览器从<code>WebSocket、AJAX长轮询、Iframe流</code>等各种方式中选择最佳的方式实现网络实施应用，非常方便与人性化</p>
+<p><strong>特点</strong></p>
+<ol>
+<li>实时分析：将数据推送到客户端，这些客户端会被表示为实时计数器，图表或日志客户。</li>
+<li>实时通信和聊天：只需几行代码便可写成一个Socket.IO的”Hello,World”聊天应用。</li>
+<li>二进制流传输：从1.0版本开始，Socket.IO支持任何形式的二进制文件传输，例如：图片，视频，音频等。</li>
+<li>文档合并：允许多个用户同时编辑一个文档，并且能够看到每个用户做出的修改。</li>
+</ol>
+<h3 id="io-onconnetion：客户端与服务端成功建立连接，接收一个回调函数：socket参数"><a href="#io-onconnetion：客户端与服务端成功建立连接，接收一个回调函数：socket参数" class="headerlink" title="io.onconnetion：客户端与服务端成功建立连接，接收一个回调函数：socket参数"></a>io.onconnetion：客户端与服务端成功建立连接，接收一个回调函数：socket参数</h3><pre class="line-numbers language-js" data-language="js"><code class="language-js">io<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'connection'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">socket</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'客户端与服务端成功建立连接'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h4 id="io-emit-用于向服务器发送消息，有两个参数"><a href="#io-emit-用于向服务器发送消息，有两个参数" class="headerlink" title="io.emit:用于向服务器发送消息，有两个参数"></a>io.emit:用于向服务器发送消息，有两个参数</h4><pre class="line-numbers language-js" data-language="js"><code class="language-js">io<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'connection'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">socket</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 第一个参数：表示自定义的数据名</span>
+    <span class="token comment">// 第二个参数：需要配合事件传入的参数</span>
+    io<span class="token punctuation">.</span><span class="token function">emit</span><span class="token punctuation">(</span><span class="token string">'loading all clients'</span><span class="token punctuation">,</span> usersInfo<span class="token punctuation">)</span><span class="token comment">//加载所有客户端进来的用户</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h4 id="回调函数中的socket"><a href="#回调函数中的socket" class="headerlink" title="回调函数中的socket"></a>回调函数中的<code>socket</code></h4><h5 id="socket-on方法：用于接收客户端发送来的消息"><a href="#socket-on方法：用于接收客户端发送来的消息" class="headerlink" title="socket.on方法：用于接收客户端发送来的消息"></a>socket.on方法：用于接收客户端发送来的消息</h5><pre class="line-numbers language-js" data-language="js"><code class="language-js">io<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'connection'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">socket</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 第一个参数：为客户端自定义的事件名</span>
+    <span class="token comment">// 第二个参数：回调函数callback,(data)=&gt;{},data为客户端传来的参数</span>
+    socket<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'connection'</span><span class="token punctuation">,</span> <span class="token parameter">data</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'client data'</span><span class="token punctuation">,</span> data<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h5 id="socket-emit方法：表示对自己客户端发送消息。"><a href="#socket-emit方法：表示对自己客户端发送消息。" class="headerlink" title="socket.emit方法：表示对自己客户端发送消息。"></a>socket.emit方法：表示对自己客户端发送消息。</h5><pre class="line-numbers language-js" data-language="js"><code class="language-js">io<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'connection'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">socket</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    socket<span class="token punctuation">.</span><span class="token function">emit</span><span class="token punctuation">(</span><span class="token string">'shake'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+        name<span class="token operator">:</span> <span class="token string">'您'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h5 id="socket-broadcast-emit-表示向除了自己以外的客户端发送消息。"><a href="#socket-broadcast-emit-表示向除了自己以外的客户端发送消息。" class="headerlink" title="socket.broadcast.emit(): 表示向除了自己以外的客户端发送消息。"></a>socket.broadcast.emit(): 表示向除了自己以外的客户端发送消息。</h5><pre><code>（比如：输入msg点击发送，只需要把msg通过服务器发送给其他客户端用于显示，而本地只需要将msg通过js代码添加到窗口，不用经过服务器了）</code></pre>
+<pre class="line-numbers language-js" data-language="js"><code class="language-js">io<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'connection'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">socket</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 发出震动，并告诉震动的人</span>
+    socket<span class="token punctuation">.</span>broadcast<span class="token punctuation">.</span><span class="token function">emit</span><span class="token punctuation">(</span><span class="token string">'shake'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>name<span class="token operator">:</span> socket<span class="token punctuation">.</span>name<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h5 id="socket-ondisconnect-表示客户端和服务端断开连接"><a href="#socket-ondisconnect-表示客户端和服务端断开连接" class="headerlink" title="socket.ondisconnect: 表示客户端和服务端断开连接"></a>socket.ondisconnect: 表示客户端和服务端断开连接</h5><pre class="line-numbers language-js" data-language="js"><code class="language-js">io<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'connection'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">socket</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 第一个参数：为客户端自定义的事件名</span>
+    socket<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'disconnect'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'user disconnect'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h2 id="客户端"><a href="#客户端" class="headerlink" title="客户端"></a>客户端</h2><p>需要在index.html中引入<code>&lt;script src="/socket.io/socket.io.js"&gt;&lt;/script&gt;</code> 方可使用io(用的是socket.io-client)</p>
+<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token comment">// io-client</span>
+<span class="token comment">// 连接成功会触发服务器端的connection事件</span>
+<span class="token keyword">const</span> socket <span class="token operator">=</span> <span class="token function">io</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h3 id="socket-emit-EventName-param1-param2-…"><a href="#socket-emit-EventName-param1-param2-…" class="headerlink" title="socket.emit(EventName, param1, param2, …..)"></a>socket.emit(EventName, param1, param2, …..)</h3><p>定义： 用于客户端向服务端发送消息，服务端与之对应的是<code>socket.on</code>方法来接收消息</p>
+<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">const</span> socket <span class="token operator">=</span> <span class="token function">io</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+socket<span class="token punctuation">.</span><span class="token function">emit</span><span class="token punctuation">(</span><span class="token string">'client msg'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    msg<span class="token operator">:</span> <span class="token string">'hello world'</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="socket-on-‘’-cb"><a href="#socket-on-‘’-cb" class="headerlink" title="socket.on(‘’, cb)"></a>socket.on(‘’, cb)</h3><p>定义：用于接收服务端发来的消息</p>
+<pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">const</span> socket <span class="token operator">=</span> <span class="token function">io</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+socket<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'server msg'</span><span class="token punctuation">,</span> <span class="token parameter">data</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>data<span class="token punctuation">.</span>msg<span class="token punctuation">)</span> <span class="token comment">// 接收到服务端的消息</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+
+
+
+<h2 id="get"><a href="#get" class="headerlink" title="get"></a>get</h2><ol>
+<li>多人发消息</li>
+<li>震动</li>
+<li>发送表情</li>
+<li>发送图片</li>
+<li>列表切换</li>
+</ol>
 
                 
             </div>
@@ -417,7 +490,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2023/03/09/hello-world/">http://example.com/2023/03/09/hello-world/</a>
+                    <a href="http://example.com/2023/03/07/socket-io/">http://example.com/2023/03/07/socket-io/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -454,7 +527,19 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/node/">
+                                    <span class="chip bg-color">node</span>
+                                </a>
+                            
+                                <a href="/tags/socket-io/">
+                                    <span class="chip bg-color">socket.io</span>
+                                </a>
+                            
+                                <a href="/tags/express/">
+                                    <span class="chip bg-color">express</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -487,13 +572,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2023/03/09/myself/">
+                <a href="/2023/03/09/hello-world/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="myself">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
                         
-                        <span class="card-title">myself</span>
+                        <span class="card-title">Hello World</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -515,14 +600,6 @@
                     </div>
                 </div>
                 
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E9%83%BD%E6%AC%A3-%E7%AE%80%E5%8E%86/">
-                        <span class="chip bg-color">都欣-简历</span>
-                    </a>
-                    
-                </div>
-                
             </div>
         </div>
         
@@ -532,13 +609,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2023/03/07/socket-io/">
+                <a href="/2022/12/07/vue-2/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="learn-socket.io">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="vue-2">
                         
-                        <span class="card-title">learn-socket.io</span>
+                        <span class="card-title">vue-2</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -549,7 +626,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-03-07
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-12-07
                             </span>
                         <span class="publish-author">
                             
@@ -562,16 +639,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/node/">
-                        <span class="chip bg-color">node</span>
+                    <a href="/tags/%E6%BA%90%E7%A0%81/">
+                        <span class="chip bg-color">源码</span>
                     </a>
                     
-                    <a href="/tags/socket-io/">
-                        <span class="chip bg-color">socket.io</span>
-                    </a>
-                    
-                    <a href="/tags/express/">
-                        <span class="chip bg-color">express</span>
+                    <a href="/tags/vue-2-6-14/">
+                        <span class="chip bg-color">vue-2.6.14</span>
                     </a>
                     
                 </div>

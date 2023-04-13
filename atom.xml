@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-03-09T06:02:31.749Z</updated>
+  <updated>2023-04-12T10:21:20.896Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,58 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ts-type-challenges</title>
+    <link href="http://example.com/2023/03/10/ts-type-challenges/"/>
+    <id>http://example.com/2023/03/10/ts-type-challenges/</id>
+    <published>2023-03-10T03:05:35.000Z</published>
+    <updated>2023-04-12T10:21:20.896Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前提&quot;&gt;&lt;a href=&quot;#前提&quot; class=&quot;headerlink&quot; title=&quot;前提&quot;&gt;&lt;/a&gt;前提&lt;/h2&gt;&lt;p&gt;因为对ts的用法还仅限于any 及简单的inference中，前几天偶然发现了这样一个神奇的网站&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="typeScript" scheme="http://example.com/tags/typeScript/"/>
+    
+    <category term="type-challenges" scheme="http://example.com/tags/type-challenges/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>myself</title>
+    <link href="http://example.com/2023/03/09/myself/"/>
+    <id>http://example.com/2023/03/09/myself/</id>
+    <published>2023-03-09T07:37:54.000Z</published>
+    <updated>2023-04-12T10:31:34.338Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;关于我&quot;&gt;&lt;a href=&quot;#关于我&quot; class=&quot;headerlink&quot; title=&quot;关于我&quot;&gt;&lt;/a&gt;关于我&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;姓名： 都欣&lt;/li&gt;
+&lt;li&gt;电话： 136-8258-4579&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    
+    <category term="都欣-简历" scheme="http://example.com/tags/%E9%83%BD%E6%AC%A3-%E7%AE%80%E5%8E%86/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -39,17 +91,17 @@
   
   <entry>
     <title>learn-socket.io</title>
-    <link href="http://example.com/2023/03/07/learn-socket-io/"/>
-    <id>http://example.com/2023/03/07/learn-socket-io/</id>
+    <link href="http://example.com/2023/03/07/socket-io/"/>
+    <id>http://example.com/2023/03/07/socket-io/</id>
     <published>2023-03-07T10:35:03.000Z</published>
-    <updated>2023-03-09T06:02:32.066Z</updated>
+    <updated>2023-04-12T10:12:27.109Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;实现&quot;&gt;&lt;a href=&quot;#实现&quot; class=&quot;headerlink&quot; title=&quot;实现&quot;&gt;&lt;/a&gt;实现&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;img.png&quot; alt=&quot;img.png&quot;&gt;&lt;br&gt;&lt;img src=&quot;img_1.png&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;实现页面&quot;&gt;&lt;a href=&quot;#实现页面&quot; class=&quot;headerlink&quot; title=&quot;实现页面&quot;&gt;&lt;/a&gt;实现页面&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;/ts-type-challenges/img.png&quot; alt=&quot;img&quot;&gt;&lt;br&gt;&lt;img</summary>
         
       
     
@@ -65,38 +117,52 @@
   </entry>
   
   <entry>
-    <title>我的2022---一个悲催的程序猿的四年前端工作总结</title>
-    <link href="http://example.com/2020/11/30/test/"/>
-    <id>http://example.com/2020/11/30/test/</id>
-    <published>2020-11-30T15:07:52.000Z</published>
-    <updated>2023-03-09T06:02:32.068Z</updated>
+    <title>vue-2</title>
+    <link href="http://example.com/2022/12/07/vue-2/"/>
+    <id>http://example.com/2022/12/07/vue-2/</id>
+    <published>2022-12-07T10:18:06.000Z</published>
+    <updated>2023-04-12T10:21:46.961Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;个人介绍&quot;&gt;&lt;a href=&quot;#个人介绍&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h3 id=&quot;核心地带&quot;&gt;&lt;a href=&quot;#核心地带&quot; class=&quot;headerlink&quot;</summary>
         
       
     
     
     
     
-    <category term="2022 年终总结" scheme="http://example.com/tags/2022-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
+    <category term="源码" scheme="http://example.com/tags/%E6%BA%90%E7%A0%81/"/>
+    
+    <category term="vue-2.6.14" scheme="http://example.com/tags/vue-2-6-14/"/>
     
   </entry>
   
   <entry>
-    <title>sheng</title>
-    <link href="http://example.com/2020/11/30/sheng/"/>
-    <id>http://example.com/2020/11/30/sheng/</id>
-    <published>2020-11-30T15:01:39.000Z</published>
-    <updated>2023-03-09T06:02:32.067Z</updated>
+    <title>vue-1</title>
+    <link href="http://example.com/2022/11/23/vue-1/"/>
+    <id>http://example.com/2022/11/23/vue-1/</id>
+    <published>2022-11-23T03:49:00.000Z</published>
+    <updated>2023-04-12T10:21:46.945Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;准备工作：下载源码&quot;&gt;&lt;a href=&quot;#准备工作：下载源码&quot; class=&quot;headerlink&quot; title=&quot;准备工作：下载源码&quot;&gt;&lt;/a&gt;准备工作：下载源码&lt;/h1&gt;&lt;p&gt;首先打开github上&lt;a</summary>
+        
+      
     
     
     
     
+    <category term="源码" scheme="http://example.com/tags/%E6%BA%90%E7%A0%81/"/>
+    
+    <category term="vue-2.6.14" scheme="http://example.com/tags/vue-2-6-14/"/>
     
   </entry>
   

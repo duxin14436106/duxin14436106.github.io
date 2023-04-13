@@ -45,8 +45,6 @@
 
 
     
-        <link rel="stylesheet" type="text/css" href="/css/reward.css">
-    
 
 
 
@@ -62,7 +60,7 @@
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
-            <div class="brand-logo">
+            <div class="brand-logo" style="margin-top: -20px">
                 <a href="/" class="waves-effect waves-light">
                     
                     <img src="/medias/logo.png" class="logo-img" alt="LOGO">
@@ -387,7 +385,7 @@
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/">4</a></span>
+    <span class="count"><a href="/">6</a></span>
     <span class="name">文章</span>
 </div>
 
@@ -396,7 +394,7 @@
 
 
 <div class="statis">
-    <span class="count"><a href="/tags">4</a></span>
+    <span class="count"><a href="/tags">8</a></span>
     <span class="name">标签</span>
 </div>
 
@@ -412,7 +410,7 @@
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/">4</a></span>
+    <span class="count"><a href="/">6</a></span>
     <span class="name">文章</span>
 </div>
 
@@ -421,7 +419,7 @@
 
 
 <div class="statis">
-    <span class="count"><a href="/tags">4</a></span>
+    <span class="count"><a href="/tags">8</a></span>
     <span class="name">标签</span>
 </div>
 
@@ -539,7 +537,7 @@
         },
         xAxis: {
             type: 'category',
-            data: ["2022-03","2022-04","2022-05","2022-06","2022-07","2022-08","2022-09","2022-10","2022-11","2022-12","2023-01","2023-02","2023-03"]
+            data: ["2022-04","2022-05","2022-06","2022-07","2022-08","2022-09","2022-10","2022-11","2022-12","2023-01","2023-02","2023-03","2023-04"]
         },
         yAxis: {
             type: 'value',
@@ -549,7 +547,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,2],
+                data: [0,0,0,0,0,0,0,1,1,0,0,4,0],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -615,7 +613,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["node","socket.io","express","2022 年终总结"]
+                data: ["源码","vue-2.6.14","node","socket.io","express","typeScript","type-challenges","都欣-简历"]
             }
         ],
         yAxis: [
@@ -628,7 +626,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [1,1,1,1],
+                data: [2,2,1,1,1,1,1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -816,8 +814,32 @@
             
             
             
-            <a href="/tags/2022-%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/">
-                <span class="chip center-align waves-effect waves-light chip-default">2022 年终总结</span>
+            <a href="/tags/typeScript/">
+                <span class="chip center-align waves-effect waves-light chip-default">typeScript</span>
+            </a>
+            
+            
+            
+            <a href="/tags/type-challenges/">
+                <span class="chip center-align waves-effect waves-light chip-default">type-challenges</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E6%BA%90%E7%A0%81/">
+                <span class="chip center-align waves-effect waves-light chip-default">源码</span>
+            </a>
+            
+            
+            
+            <a href="/tags/vue-2-6-14/">
+                <span class="chip center-align waves-effect waves-light chip-default">vue-2.6.14</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E9%83%BD%E6%AC%A3-%E7%AE%80%E5%8E%86/">
+                <span class="chip center-align waves-effect waves-light chip-default">都欣-简历</span>
             </a>
             
             
@@ -882,60 +904,6 @@
 
 
     <footer class="page-footer bg-color">
-    
-        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
-<style>
-    .aplayer .aplayer-lrc p {
-        
-        display: none;
-        
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 16px !important;
-    }
-
-    .aplayer .aplayer-lrc p.aplayer-lrc-current {
-        
-        display: none;
-        
-        font-size: 15px;
-        color: #42b983;
-    }
-
-    
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-        left: -66px !important;
-    }
-
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
-        left: 0px !important;
-    }
-
-    
-</style>
-<div class="">
-    
-    <div class="row">
-        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
-                   server="netease"
-                   type="playlist"
-                   id="503838841"
-                   fixed='true'
-                   autoplay='false'
-                   theme='#42b983'
-                   loop='all'
-                   order='random'
-                   preload='auto'
-                   volume='0.7'
-                   list-folded='true'
-        >
-        </meting-js>
-    </div>
-</div>
-
-<script src="/libs/aplayer/APlayer.min.js"></script>
-<script src="/libs/aplayer/Meting.min.js"></script>
-
     
 
     <div class="container row center-align"
@@ -1209,17 +1177,17 @@ $(function () {
     
 
     <!-- 雪花特效 -->
+    
+
+    <!-- 鼠标星星特效 -->
      
         <script type="text/javascript">
             // 只在桌面版网页启用特效
             var windowWidth = $(window).width();
             if (windowWidth > 768) {
-                document.write('<script type="text/javascript" src="/libs/others/snow.js"><\/script>');
+                document.write('<script type="text/javascript" src="/libs/others/star.js"><\/script>');
             }
         </script>
-    
-
-    <!-- 鼠标星星特效 -->
     
 
      
