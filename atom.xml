@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-04-12T10:21:20.896Z</updated>
+  <updated>2023-04-13T03:38:18.671Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vue-4</title>
+    <link href="http://example.com/2023/04/13/vue-4/"/>
+    <id>http://example.com/2023/04/13/vue-4/</id>
+    <published>2023-04-13T03:37:11.000Z</published>
+    <updated>2023-04-13T03:38:18.671Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;回顾&quot;&gt;&lt;a href=&quot;#回顾&quot; class=&quot;headerlink&quot; title=&quot;回顾&quot;&gt;&lt;/a&gt;回顾&lt;/h2&gt;&lt;h4 id=&quot;涉及的前端小知识【遇到就记录一下】&quot;&gt;&lt;a href=&quot;#涉及的前端小知识【遇到就记录一下】&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="源码" scheme="http://example.com/tags/%E6%BA%90%E7%A0%81/"/>
+    
+    <category term="vue-2.6.14" scheme="http://example.com/tags/vue-2-6-14/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue-3</title>
+    <link href="http://example.com/2023/04/13/vue-3/"/>
+    <id>http://example.com/2023/04/13/vue-3/</id>
+    <published>2023-04-13T03:25:25.000Z</published>
+    <updated>2023-04-13T03:27:53.744Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;写完两篇文章后，发现确实了解到了许多以前迷惑的地方，比如&lt;code&gt;watch</summary>
+        
+      
+    
+    
+    
+    
+    <category term="源码" scheme="http://example.com/tags/%E6%BA%90%E7%A0%81/"/>
+    
+    <category term="vue-2.6.14" scheme="http://example.com/tags/vue-2-6-14/"/>
+    
+  </entry>
   
   <entry>
     <title>ts-type-challenges</title>
@@ -120,7 +170,7 @@
     <link href="http://example.com/2022/12/07/vue-2/"/>
     <id>http://example.com/2022/12/07/vue-2/</id>
     <published>2022-12-07T10:18:06.000Z</published>
-    <updated>2023-04-12T10:21:46.961Z</updated>
+    <updated>2023-04-13T03:35:54.309Z</updated>
     
     
       
@@ -145,7 +195,7 @@
     <link href="http://example.com/2022/11/23/vue-1/"/>
     <id>http://example.com/2022/11/23/vue-1/</id>
     <published>2022-11-23T03:49:00.000Z</published>
-    <updated>2023-04-12T10:21:46.945Z</updated>
+    <updated>2023-04-13T03:36:31.220Z</updated>
     
     
       
