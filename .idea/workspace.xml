@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23b310a9-5ee0-4161-8d9c-b74fc561a543" name="Default Changelist" comment="feat: 新增文章">
-      <change afterPath="$PROJECT_DIR$/source/_posts/socket-io.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/ts-type-challenges/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/ts-type-challenges/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/ts-type-challenges/img_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/post.md" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolds/post.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/socket-io/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/socket-io/img_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/img_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/socket-io/img_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/learn-socket-io.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/sheng.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/test.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/annual-report.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/layout/_partial/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/layout/_partial/header.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/layout/_partial/post-detail.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/layout/_partial/post-detail.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/myself.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/myself.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/css/matery.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/source/css/matery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/css/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/source/css/post.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/libs/materialize/materialize.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/source/libs/materialize/materialize.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/banner/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/banner/0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/banner/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/banner/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/banner/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/banner/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/banner/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/banner/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/banner/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/banner/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/featureimages/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/source/medias/featureimages/0.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +54,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\demo\duxin14436106.github.io\themes\hexo-theme-matery\source\medias\banner" />
       <recent name="D:\demo\duxin14436106.github.io\source\_posts\ts-type-challenges" />
     </key>
   </component>
@@ -79,7 +76,8 @@
       <workItem from="1679274190662" duration="594000" />
       <workItem from="1679370610125" duration="27000" />
       <workItem from="1681293891761" duration="251000" />
-      <workItem from="1681294266570" duration="1208000" />
+      <workItem from="1681294266570" duration="56926000" />
+      <workItem from="1681352480974" duration="2456000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 新增文章">
       <created>1678185665312</created>
@@ -102,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678185707000</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: 新增文章">
+      <created>1681295549689</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681295549689</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
