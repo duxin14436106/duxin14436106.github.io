@@ -18,6 +18,10 @@ categories:
 - 长时间按住页面出现闪退：element{-webkit-touch-callout:none}
 - 旋转屏幕，字体调整的问题：标签选择器{-webkit-text-size-ajust:100%}
 
+## babel + css
+### babel对ecmascript的支持
+### autoprefixer的样式支持
+
 ## ios
 1. 滚动条，ios在手动滚动的时候，滚动条会出现，随后消失，安卓没有这个问题。
   **解决：**【加个样式】::-webkit-scrollbar {display: none;}

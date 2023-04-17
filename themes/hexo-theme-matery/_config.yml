@@ -4,12 +4,6 @@ menu:
   Index:
     url: /
     icon: fas fa-home
-  Tags:
-    url: /tags
-    icon: fas fa-tags
-  Categories:
-    url: /categories
-    icon: fas fa-bookmark
   Archives:
     url: /archives
     icon: fas fa-archive
@@ -261,21 +255,21 @@ profile:
 myProjects:
   enable: true
   data:
-    hexo-theme-matery:
+    webpack-practice:
       icon: fas fa-file-alt
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: http://github.com/blinkfox/hexo-theme-matery
-      desc: This is a Hexo blog theme with 'Material Design' and responsive design.
-    Fenix:
+      url: https://github.com/duxin14436106/webpack
+      desc: webpack4/5  ——  配置/loader/plugin练习.
+    myChat:
         icon: fas fa-database
         iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-        url: https://github.com/blinkfox/fenix
-        desc: 这是 Spring Data JPA 复杂或动态 SQL 查询的扩展库。
-    typora-vue-theme:
+        url: https://github.com/duxin14436106/my-chat
+        desc: 简易的聊天室-通过socket.io +  node + js 实现
+    template-vue2-elementui:
         icon: fas fa-file-alt
         iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
-        url: https://github.com/blinkfox/typora-vue-theme
-        desc: This is a typora theme inspired by Vue document style.
+        url: https://github.com/duxin14436106/vue-base-template-vue2-elementui
+        desc: vue2 基础模板
 
 # config my skills informations in about page.
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
@@ -283,7 +277,7 @@ myProjects:
 mySkills:
   enable: true
   data:
-    Java:
+    Vue2/3:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
       percent: 85%
     JavaScript:
@@ -292,15 +286,21 @@ mySkills:
     HTML5:
       background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
       percent: 80%
-    CSS:
+    CSS/3:
       background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
-      percent: 70%
-    SQL:
+      percent: 80%
+    webpack:
       background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
-      percent: 90%
-    程序设计:
+      percent: 70%
+    Typescript:
+      background: 'linear-gradient(to right, #70e7d7 0%, #12d3b9 100%)'
+      percent: 70%
+    工程化/组件化/模块化:
       background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
       percent: 75%
+    node:
+      background: 'linear-gradient(to right, #a29ed1 0%, #2517c5 100%)'
+      percent: 55%
 
 # config gallery of my photos in about page.
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
@@ -308,9 +308,9 @@ mySkills:
 myGallery:
   enable: true
   data:
-    - /medias/featureimages/0.jpg
-    - /medias/featureimages/1.jpg
-    - /medias/featureimages/2.jpg
+    - /medias/banner/0.jpg
+    - /medias/banner/1.jpg
+    - /medias/banner/3.jpg
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
