@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23b310a9-5ee0-4161-8d9c-b74fc561a543" name="Default Changelist" comment="feat: 调整配置内容">
+    <list default="true" id="23b310a9-5ee0-4161-8d9c-b74fc561a543" name="Default Changelist" comment="feat: 新增内容">
+      <change afterPath="$PROJECT_DIR$/source/_posts/interview-2023.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/interview-2023/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/interview-2023/img1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/H5Compatibility.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/H5Compatibility.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\demo\duxin14436106.github.io\source\_posts\interview-2023" />
       <recent name="D:\demo\duxin14436106.github.io\themes\hexo-theme-matery\source\medias\banner" />
       <recent name="D:\demo\duxin14436106.github.io\source\_posts\ts-type-challenges" />
     </key>
@@ -67,7 +70,9 @@
       <workItem from="1681294266570" duration="56926000" />
       <workItem from="1681352480974" duration="3549000" />
       <workItem from="1681356222749" duration="5256000" />
-      <workItem from="1681699176462" duration="5617000" />
+      <workItem from="1681699176462" duration="6390000" />
+      <workItem from="1683274529379" duration="140000" />
+      <workItem from="1684810105039" duration="3815000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 新增文章">
       <created>1678185665312</created>
@@ -146,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681703099645</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: 新增内容">
+      <created>1681723043362</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681723043362</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +182,7 @@
     <MESSAGE value="feat: 新增文章" />
     <MESSAGE value="feat: 新增文章h5兼容性" />
     <MESSAGE value="feat: 调整配置内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 调整配置内容" />
+    <MESSAGE value="feat: 新增内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 新增内容" />
   </component>
 </project>
