@@ -49,7 +49,7 @@ Function.prototyp5.my_call = function(context, ...args) {
    ```
 ## 问题：使用promise实现并发请求限制N个
    （每次执行三个，一个执行完再补上一个，一直保持三个promise在执行）
-![img.png](interview-2023/img.png)
+![img.png](img.png)
 ```js
 var urls = [
     "https://www.kkkk1000.com/images/getImgData/getImgDatadat1.jpg",
@@ -111,7 +111,7 @@ limitLoad(urls, loadImg, 3).then((res) => consol5.log(res));
   * Math.ceil(screenHeight / itemSize)
 * 计算 startIndex 对应的数据在整个列表中的偏移位置 startOffset，并设置到列表上
   * startOffset = scrollTop - (scrollTop % itemSize);
-![img.png](interview-2023/img1.png)
+![img1.png](img1.png)
 
 ```js
 export default {
