@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23b310a9-5ee0-4161-8d9c-b74fc561a543" name="Default Changelist" comment="feat: 新增内容">
-      <change afterPath="$PROJECT_DIR$/source/_posts/interview-2023.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/interview-2023/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/interview-2023/img1.png" afterDir="false" />
+    <list default="true" id="23b310a9-5ee0-4161-8d9c-b74fc561a543" name="Default Changelist" comment="feat: 调整目录样式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/interview-2023.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/interview-2023.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-matery/source/css/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-matery/source/css/post.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +12,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="gh-pages" />
@@ -73,7 +84,7 @@
       <workItem from="1681356222749" duration="5256000" />
       <workItem from="1681699176462" duration="6390000" />
       <workItem from="1683274529379" duration="140000" />
-      <workItem from="1684810105039" duration="4828000" />
+      <workItem from="1684810105039" duration="12946000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 新增文章">
       <created>1678185665312</created>
@@ -159,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681723043362</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: 新增内容">
+      <created>1684815248633</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684815248634</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: 新增内容">
+      <created>1684815260752</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684815260752</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +209,7 @@
     <MESSAGE value="feat: 新增文章h5兼容性" />
     <MESSAGE value="feat: 调整配置内容" />
     <MESSAGE value="feat: 新增内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 新增内容" />
+    <MESSAGE value="feat: 调整目录样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 调整目录样式" />
   </component>
 </project>

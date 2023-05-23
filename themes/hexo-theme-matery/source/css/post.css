@@ -51,6 +51,9 @@
 
 #toc-content ol li {
     padding-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 #toc-content .toc-link:hover {

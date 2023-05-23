@@ -19,10 +19,12 @@ categories:
 
 
 ## 问题：vue同步父子组件和异步父子组件的生命周期顺序
-#### 同步
+**同步**
 父组件的beforeCreate. created. beforeMount --> 所有子组件的beforeCreate. created. beforeMount --> 所有子组件的mounted --> 父组件的mounted
-#### 异步
+
+**异步**
 父组件的beforeCreate. created. beforeMount. mounted --> 子组件的beforeCreate. created. beforeMount. mounted
+
 ## 问题：移动端是如何做适配的
 1. rem(根据根节点定义font-size) + viewport缩放【淘宝方案】
 2. 第三方插件+配置
