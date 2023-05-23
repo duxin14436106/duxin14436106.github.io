@@ -6,6 +6,7 @@
       <change afterPath="$PROJECT_DIR$/source/_posts/interview-2023/img.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/source/_posts/interview-2023/img1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
       <workItem from="1681356222749" duration="5256000" />
       <workItem from="1681699176462" duration="6390000" />
       <workItem from="1683274529379" duration="140000" />
-      <workItem from="1684810105039" duration="3815000" />
+      <workItem from="1684810105039" duration="4828000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 新增文章">
       <created>1678185665312</created>
