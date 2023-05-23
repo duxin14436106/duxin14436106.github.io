@@ -51,9 +51,9 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 5.2.0">
+<meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="宁之家" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="宁之家" type="application/atom+xml">
 </head>
 
 
@@ -340,8 +340,8 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>关键词： <code>2023前端面试</code> <code>web前端面试</code><br><code>该文章所有问题皆是2023-05-04开始，面试前端岗位过程中，被问到的问题，在此记录下，并持续更新(还没有找到工作的情况下...)</code></p>
-<h2 id="问题：vue同步父子组件和异步父子组件的生命周期顺序"><a href="#问题：vue同步父子组件和异步父子组件的生命周期顺序" class="headerlink" title="问题：vue同步父子组件和异步父子组件的生命周期顺序"></a>问题：vue同步父子组件和异步父子组件的生命周期顺序</h2><h4 id="同步"><a href="#同步" class="headerlink" title="同步"></a>同步</h4><p>父组件的beforeCreate. created. beforeMount –&gt; 所有子组件的beforeCreate. created. beforeMount –&gt; 所有子组件的mounted –&gt; 父组件的mounted</p>
-<h4 id="异步"><a href="#异步" class="headerlink" title="异步"></a>异步</h4><p>父组件的beforeCreate. created. beforeMount. mounted –&gt; 子组件的beforeCreate. created. beforeMount. mounted</p>
+<h2 id="问题：vue同步父子组件和异步父子组件的生命周期顺序"><a href="#问题：vue同步父子组件和异步父子组件的生命周期顺序" class="headerlink" title="问题：vue同步父子组件和异步父子组件的生命周期顺序"></a>问题：vue同步父子组件和异步父子组件的生命周期顺序</h2><p><strong>同步</strong><br>父组件的beforeCreate. created. beforeMount –&gt; 所有子组件的beforeCreate. created. beforeMount –&gt; 所有子组件的mounted –&gt; 父组件的mounted</p>
+<p><strong>异步</strong><br>父组件的beforeCreate. created. beforeMount. mounted –&gt; 子组件的beforeCreate. created. beforeMount. mounted</p>
 <h2 id="问题：移动端是如何做适配的"><a href="#问题：移动端是如何做适配的" class="headerlink" title="问题：移动端是如何做适配的"></a>问题：移动端是如何做适配的</h2><ol>
 <li>rem(根据根节点定义font-size) + viewport缩放【淘宝方案】</li>
 <li>第三方插件+配置</li>
