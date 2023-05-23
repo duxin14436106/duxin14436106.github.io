@@ -358,7 +358,7 @@
        cx<span class="token punctuation">[</span>sy<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token keyword">this</span>
        <span class="token keyword">return</span> cx<span class="token punctuation">[</span>sy<span class="token punctuation">]</span><span class="token punctuation">(</span><span class="token operator">...</span>args<span class="token punctuation">)</span>
    <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="问题：使用promise实现并发请求限制N个"><a href="#问题：使用promise实现并发请求限制N个" class="headerlink" title="问题：使用promise实现并发请求限制N个"></a>问题：使用promise实现并发请求限制N个</h2>（每次执行三个，一个执行完再补上一个，一直保持三个promise在执行）<br><img src="/interview-2023/img.png" alt="img.png"><pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> urls <span class="token operator">=</span> <span class="token punctuation">[</span>
+<h2 id="问题：使用promise实现并发请求限制N个"><a href="#问题：使用promise实现并发请求限制N个" class="headerlink" title="问题：使用promise实现并发请求限制N个"></a>问题：使用promise实现并发请求限制N个</h2>（每次执行三个，一个执行完再补上一个，一直保持三个promise在执行）<br><img src="/2023/05/23/interview-2023/img.png" alt="img.png"><pre class="line-numbers language-js" data-language="js"><code class="language-js"><span class="token keyword">var</span> urls <span class="token operator">=</span> <span class="token punctuation">[</span>
     <span class="token string">"https://www.kkkk1000.com/images/getImgData/getImgDatadat1.jpg"</span><span class="token punctuation">,</span>
     <span class="token string">"https://www.kkkk1000.com/images/getImgData/gray.gif"</span><span class="token punctuation">,</span>
     <span class="token string">"https://www.kkkk1000.com/images/getImgData/Particl5.gif"</span><span class="token punctuation">,</span>
@@ -422,7 +422,7 @@
 </ul>
 </li>
 <li>计算 startIndex 对应的数据在整个列表中的偏移位置 startOffset，并设置到列表上<ul>
-<li>startOffset = scrollTop - (scrollTop % itemSize);<br><img src="/interview-2023/img1.png" alt="img.png"></li>
+<li>startOffset = scrollTop - (scrollTop % itemSize);<br><img src="/2023/05/23/interview-2023/img1.png" alt="img1.png"></li>
 </ul>
 </li>
 </ul>
