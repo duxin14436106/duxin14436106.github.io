@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>宁之家</title>
+  
+  <subtitle>Allison.Du</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2024-05-11T09:26:08.935Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>笙</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Map实现底层原理</title>
+    <link href="http://example.com/2024/05/11/map-shi-xian-di-ceng-yuan-li/"/>
+    <id>http://example.com/2024/05/11/map-shi-xian-di-ceng-yuan-li/</id>
+    <published>2024-05-11T09:18:18.000Z</published>
+    <updated>2024-05-11T09:26:08.935Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;es6-Map&quot;&gt;&lt;a href=&quot;#es6-Map&quot; class=&quot;headerlink&quot; title=&quot;es6 Map()&quot;&gt;&lt;/a&gt;es6 Map()&lt;/h2&gt;&lt;h4 id=&quot;Map-常见方法&quot;&gt;&lt;a href=&quot;#Map-常见方法&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2023/06/15/hello-world/"/>
+    <id>http://example.com/2023/06/15/hello-world/</id>
+    <published>2023-06-15T08:51:34.336Z</published>
+    <updated>2023-06-15T08:51:34.336Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>interview-2023</title>
+    <link href="http://example.com/2023/05/23/interview-2023/"/>
+    <id>http://example.com/2023/05/23/interview-2023/</id>
+    <published>2023-05-23T02:52:52.000Z</published>
+    <updated>2023-06-15T08:51:34.336Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;关键词： &lt;code&gt;2023前端面试&lt;/code&gt;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="interview" scheme="http://example.com/tags/interview/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue-4</title>
+    <link href="http://example.com/2023/04/13/vue-4/"/>
+    <id>http://example.com/2023/04/13/vue-4/</id>
+    <published>2023-04-13T03:37:11.000Z</published>
+    <updated>2023-06-15T08:51:34.368Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;回顾&quot;&gt;&lt;a href=&quot;#回顾&quot; class=&quot;headerlink&quot; title=&quot;回顾&quot;&gt;&lt;/a&gt;回顾&lt;/h2&gt;&lt;h4 id=&quot;涉及的前端小知识【遇到就记录一下】&quot;&gt;&lt;a href=&quot;#涉及的前端小知识【遇到就记录一下】&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="vue-2.6.14" scheme="http://example.com/tags/vue-2-6-14/"/>
+    
+    <category term="源码" scheme="http://example.com/tags/%E6%BA%90%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue-3</title>
+    <link href="http://example.com/2023/04/13/vue-3/"/>
+    <id>http://example.com/2023/04/13/vue-3/</id>
+    <published>2023-04-13T03:25:25.000Z</published>
+    <updated>2023-06-15T08:51:34.368Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;写完两篇文章后，发现确实了解到了许多以前迷惑的地方，比如&lt;code&gt;watch</summary>
+        
+      
+    
+    
+    
+    
+    <category term="vue-2.6.14" scheme="http://example.com/tags/vue-2-6-14/"/>
+    
+    <category term="源码" scheme="http://example.com/tags/%E6%BA%90%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ts-type-challenges</title>
+    <link href="http://example.com/2023/03/10/ts-type-challenges/"/>
+    <id>http://example.com/2023/03/10/ts-type-challenges/</id>
+    <published>2023-03-10T03:05:35.000Z</published>
+    <updated>2023-06-15T08:51:34.368Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前提&quot;&gt;&lt;a href=&quot;#前提&quot; class=&quot;headerlink&quot; title=&quot;前提&quot;&gt;&lt;/a&gt;前提&lt;/h2&gt;&lt;p&gt;因为对ts的用法还仅限于any 及简单的inference中，前几天偶然发现了这样一个神奇的网站&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="typeScript" scheme="http://example.com/tags/typeScript/"/>
+    
+    <category term="type-challenges" scheme="http://example.com/tags/type-challenges/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我</title>
+    <link href="http://example.com/2023/03/09/myself/"/>
+    <id>http://example.com/2023/03/09/myself/</id>
+    <published>2023-03-09T07:37:54.000Z</published>
+    <updated>2023-06-15T08:51:34.345Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;关于我&quot;&gt;&lt;a href=&quot;#关于我&quot; class=&quot;headerlink&quot; title=&quot;关于我&quot;&gt;&lt;/a&gt;关于我&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;姓名： 都欣&lt;/li&gt;
+&lt;li&gt;曾用名： 都雅宁&lt;/li&gt;
+&lt;li&gt;电话： 136-8258-4579 /</summary>
+        
+      
+    
+    
+    
+    
+    <category term="都欣-简历" scheme="http://example.com/tags/%E9%83%BD%E6%AC%A3-%E7%AE%80%E5%8E%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>learn-socket.io</title>
+    <link href="http://example.com/2023/03/07/socket-io/"/>
+    <id>http://example.com/2023/03/07/socket-io/</id>
+    <published>2023-03-07T10:35:03.000Z</published>
+    <updated>2023-06-15T08:51:34.345Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;实现页面&quot;&gt;&lt;a href=&quot;#实现页面&quot; class=&quot;headerlink&quot; title=&quot;实现页面&quot;&gt;&lt;/a&gt;实现页面&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;/ts-type-challenges/img.png&quot; alt=&quot;img&quot;&gt;&lt;br&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+    <category term="node" scheme="http://example.com/tags/node/"/>
+    
+    <category term="socket.io" scheme="http://example.com/tags/socket-io/"/>
+    
+    <category term="express" scheme="http://example.com/tags/express/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue-2</title>
+    <link href="http://example.com/2022/12/07/vue-2/"/>
+    <id>http://example.com/2022/12/07/vue-2/</id>
+    <published>2022-12-07T10:18:06.000Z</published>
+    <updated>2023-06-15T08:51:34.368Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;核心地带&quot;&gt;&lt;a href=&quot;#核心地带&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="vue-2.6.14" scheme="http://example.com/tags/vue-2-6-14/"/>
+    
+    <category term="源码" scheme="http://example.com/tags/%E6%BA%90%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue-1</title>
+    <link href="http://example.com/2022/11/23/vue-1/"/>
+    <id>http://example.com/2022/11/23/vue-1/</id>
+    <published>2022-11-23T03:49:00.000Z</published>
+    <updated>2023-06-15T08:51:34.368Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;准备工作：下载源码&quot;&gt;&lt;a href=&quot;#准备工作：下载源码&quot; class=&quot;headerlink&quot; title=&quot;准备工作：下载源码&quot;&gt;&lt;/a&gt;准备工作：下载源码&lt;/h1&gt;&lt;p&gt;首先打开github上&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="vue-2.6.14" scheme="http://example.com/tags/vue-2-6-14/"/>
+    
+    <category term="源码" scheme="http://example.com/tags/%E6%BA%90%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>flutter-one</title>
+    <link href="http://example.com/2022/06/15/flutter-one/"/>
+    <id>http://example.com/2022/06/15/flutter-one/</id>
+    <published>2022-06-15T08:55:52.000Z</published>
+    <updated>2023-06-19T08:45:08.473Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;h3 id=&quot;关于Hybrid&quot;&gt;&lt;a href=&quot;#关于Hybrid&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="flutter" scheme="http://example.com/tags/flutter/"/>
+    
+    <category term="Dart" scheme="http://example.com/tags/Dart/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>H5Compatibility</title>
+    <link href="http://example.com/2022/04/17/h5compatibility/"/>
+    <id>http://example.com/2022/04/17/h5compatibility/</id>
+    <published>2022-04-17T02:45:37.000Z</published>
+    <updated>2023-06-15T08:51:34.336Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;兼容性&quot;&gt;&lt;a href=&quot;#兼容性&quot; class=&quot;headerlink&quot; title=&quot;兼容性&quot;&gt;&lt;/a&gt;兼容性&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="H5兼容性" scheme="http://example.com/tags/H5%E5%85%BC%E5%AE%B9%E6%80%A7/"/>
+    
+  </entry>
+  
+</feed>
